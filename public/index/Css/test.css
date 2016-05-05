@@ -1,0 +1,104 @@
+body {margin:0px auto; padding:0px auto; font-size:12px; background: #fff; }
+div{ border:0px solid #ccc; text-decoration:none; font-family:"宋体";color:#505050;}
+.clear{ clear:both;}
+img{ border:0px solid #ccc;}
+.left{ float:left;}
+.right{ float:right;}
+a{
+	text-decoration:none;
+   color: #333333;
+}
+
+/*ALL*/
+/**.logo{ margin:0px auto; padding:0px; width:372px; height:126px; position:absolute;  text-align:center; left:37%; right:37%;  z-index:1100;}
+.logo flash{ width:372px; height:126px; text-align:center; }
+.head{ width:100%; height:95px; padding:0px; margin:0px auto; background:url(../Images/head_bg.png) repeat-x; position:absolute; z-index:1000;}
+.head_bg{ width:1290px; height:95px;padding:0px; margin:0px auto; background:url(../Images/head_bg.png) repeat-x; overflow:hidden;}*/
+.autobody{width:100%;padding:0px; margin:0px auto;z-index:1000; }
+.head{ width:1000px; margin:0 auto; height:88px}
+.head_l{ float:left; width:200px; border:0px solid #ccc;height:88px;overflow:hidden;}
+.head_lp{height:18px;}
+.head_r{ float:right; text-align:right; width:680px; border:0px solid #ccc;height:80px; overflow:hidden;}
+.head_rp{height:39px;}
+
+
+.hl{ width:450px; height:40px;}
+.hr{ width:460px; height:40px; float:right}
+/*Menu*/
+
+.menu_right{ float:right; text-align:right;width:680px; height:55px; border:0px solid #ccc;line-height:60px; color:#ffffff; font-family:Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1",simher, Arial, sans-serif !important; font-size:17px; overflow:hidden; padding-top:12px; letter-spacing:2px}
+.menu1_right{ width:85px; height:55px; text-align:center; float:left; padding:0 10px}
+.menu1_right a{ color:#000048;font-family:Microsoft YaHei, "\5FAE\8F6F\96C5\9ED1",simher, Arial, sans-serif !important; display:block;  height:50px;}
+.menu1_right:hover{width:85px; height:50px; border:1px solid ccc; text-align:center;}
+.menu1_right a:hover{color:#027DEF;}
+.menu1_right A.on{ color:#027DEF; background:url(../Images/menubg.gif) center bottom no-repeat}
+.leftsc{ color:#027DEF}
+
+#container {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 17px; WIDTH: 1007px; PADDING-RIGHT: 17px; BACKGROUND: url(../Images/bg.gif) repeat-y center top; PADDING-TOP: 0px
+}
+
+#right_menu{ border:1px solid #eeeeee;position: relative; height: auto; width:220px}
+#right_menu H3 B {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; TEXT-INDENT: 15px; DISPLAY: block; HEIGHT: 25px; COLOR: #000000; FONT-SIZE: 14px; *padding-top:12px
+}
+
+#right_menu UL {
+	PADDING:0px 0px;text-align:left; margin:0 5px;
+}
+#right_menu UL LI {
+	TEXT-ALIGN: left; LINE-HEIGHT: 25px; WIDTH: 200px; MARGIN-BOTTOM: 10px; FLOAT: left; HEIGHT: 25px; FONT-SIZE: 14px; OVERFLOW: hidden;  padding-left:10px
+}
+#right_menu UL LI A {
+	 WIDTH: 200px; DISPLAY: block; HEIGHT: 24px;  TEXT-DECORATION: none; font-size:12px
+}
+#right_menu UL LI A:hover {
+	COLOR: #027DEF; font-size:12px; height:24px
+}
+#right_menu UL LI A.on {
+	 BORDER-LEFT:#060 1px solid; COLOR: #ffffff; BORDER-TOP:#060 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT:#060 1px solid; font-size:12px
+}
+
+/*Banner*/
+
+
+
+
+.banner{ width:100%; height:403px;padding:0px; margin:0px auto;overflow:hidden; text-align:center; position:relative; border-bottom:1px solid #ffffff}
+.ban{width:1000px; height:300px; background: #0C0; margin:0 auto;}
+.buttom{ width:100%; height:93px;padding:0px; margin:0px auto; background:url(../Images/bottom_bg.jpg) repeat-x;  }
+.buttom_bg{ width:1290px; height:93px;padding:0px; margin:0px auto; background:url(../Images/bottom_bg.jpg) repeat-x;overflow:hidden; background-color:#000000  }
+
+/*Top*/
+.top{ width:1290px; height:95px; margin:0px auto; padding:0px; border:0px solid #ccc;}
+.top_top{ width:1270px;  height:40px;  border:0px solid #ccc; overflow:hidden;}
+.search{ float:right; width:165px; height:25px; margin-top:6px;border:0px solid #ccc; overflow:hidden;}
+.search_left{ float:left;width:129px; height:24px; overflow:hidden; background:url(../Images/sr_left.png) no-repeat; color:#15567d; border:0px solid #ccc;  line-height:24px;}
+.search_left input{ width:110px; height:13px;overflow:hidden; margin-left:5px; margin-top:5px; background-color:transparent; border:0px solid #ccc;}
+.search_right{ float:right; width:36px; height:24px; line-height:24px; overflow:hidden;}
+
+.youku{ float:left;width:35px; height:25px; margin-top:2px;}
+.weibo{ float:left;width:35px; height:25px; margin-top:2px;}
+.qq{ float:left;width:40px; height:25px; margin-top:2px;}
+.shoucang{ float:left; width:35px; height:25px; margin-top:2px;}
+
+#indexcon{ width:1000px; margin:-6px auto 25px;}
+#indexcon H2{height:30px; font-size:16px; font-weight:bold; margin:0 auto; padding:15px 10px 5px 10px}
+
+#indexcon UL.news { width:300px; margin:0 auto; float:left;padding-left:5px; list-style:none}
+#indexcon UL.news LI {
+	LINE-HEIGHT: 35px; TEXT-INDENT: 15px; BACKGROUND: url(../Images/arrow.gif) no-repeat 2px 10px; HEIGHT: 35px; FONT-SIZE: 14px; OVERFLOW: hidden; border-bottom:1px dotted #eeeeee; list-style:none
+}
+#indexcon UL.news LI a:hover{
+	color:#027DEF
+	
+}
+#indexcon UL.news LI SPAN {
+	FLOAT: right; COLOR: #999999
+}
+/*bottom*/
+#bottom_all{height:75px; width:100%; margin:0 auto; border-top:1px solid #ccc; text-align:center;}
+#bottom_all a{ color:#666}
+
+
+

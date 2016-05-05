@@ -1,0 +1,94 @@
+/*Tab1*/
+#lib_Tab1{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	margin-bottom:15px;
+}
+/*Tab2*/
+#lib_Tab2{
+width:576px;
+margin:0px;
+padding:0px;
+margin-bottom:15px;
+}
+.lib_tabborder{
+}
+.lib_Menubox {
+height:40px;
+line-height:40px;
+	background-image: url('../Images/tit01_center.jpg');
+	background-repeat:repeat-x;
+	background-position: left top;
+	position:relative;
+	}
+.lib_Menubox ul{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	list-style:none; 
+	position:absolute; 
+	left:0; 
+	height:40px;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-position: right top;
+}
+.lib_Menubox li{
+	float: left;
+	display: block;
+	cursor: pointer;
+	width: 100px;
+	color: #949694;
+	font-weight: bold;
+	margin-right: 2px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 10pt;
+}
+.lib_tabborder li span{
+	width:100%;
+	height: 40px;
+	display:block;
+	line-height: 40px;
+	text-align:center;
+}
+li#one1,li.tit_bj_left{
+	border:none;
+}
+
+li.tit_bj_left{
+	width:12px;
+	background-image: url('../Images/tit01_left.jpg');
+	background-repeat:no-repeat;
+	background-position: left top;
+}
+
+/*  www.codefans.net */
+.lib_Menubox li.hover,li#one1.hover,li#one2.hover,li#one3.hover{
+	padding:0px;
+	width:100px;
+	color:#333;
+	background-image: url('../Images/tit01_hover.jpg');
+	background-repeat:no-repeat;
+	background-position: center top;
+}
+.lib_Contentbox{
+	clear: both;
+	margin-top: 0px;
+	border-top: none;
+	height: auto;
+	text-align: center;
+	padding-top:6px;
+	padding-bottom:6px;
+	background-color:#fff;
+}
+
+/*ÄÚÈÝÇø*/
+.text_div{
+width:98%;
+height:auto;
+text-align:left;
+display:block;
+overflow:hidden;
+}
